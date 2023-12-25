@@ -36,7 +36,11 @@ letter.className = "letter in";
 
 changeText();
 setInterval(changeText,3000)
-
+// about section ///////////////////////////////////////////////////////////////////////
+document.getElementById('readMoreBtn').addEventListener('click', function() {
+    // Add your logic to toggle additional content here
+    alert('Read more button clicked!');
+});
 // project section ////////////////////////////////////////////////////////////////////
 
  document.addEventListener("DOMContentLoaded", function () {
